@@ -4,10 +4,10 @@
 This project can be used as a starting point for any Angular 2 application developemnt.
 
 ## Quick run
-clone the repositoy or download as zip
-run `npm install`
-install the angular 2 cli by `npm install angular-cli -g`
-run `ng serve`
+- clone the repositoy or download as zip
+- run `npm install`
+- install the angular 2 cli by `npm install angular-cli -g`
+- run `ng serve`
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.9.
 
