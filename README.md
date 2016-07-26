@@ -1,5 +1,13 @@
-<<<<<<< HEAD
-# Ciphyapp
+
+# Simple-Single-Page-App-Angular2
+
+This project can be used as a starting point for any Angular 2 application developemnt.
+
+## Quick run
+clone the repositoy or download as zip
+run `npm install`
+install the angular 2 cli by `npm install angular-cli -g`
+run `ng serve`
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.9.
 
@@ -30,6 +38,4 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# Simple-Single-Page-App-Angular2
->>>>>>> abd46b24131c65d1790daf3c6b79332ddfcf6a76
+
