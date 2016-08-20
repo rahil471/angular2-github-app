@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Simple-Single-Page-App-Angular2
 
@@ -39,3 +40,7 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+=======
+# angular2-github-app
+Angular2-github-app
+>>>>>>> 004a8a8c52bf5db3ddc79cb61822a281cae86e0b

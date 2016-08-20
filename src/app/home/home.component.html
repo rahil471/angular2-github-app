@@ -1,1 +1,18 @@
 <h1>{{welcome}}</h1>
+<div class="col-md-6">
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="username">Enter your github username</label>
+            <input [(ngModel)] = "githubUsername" name="username" class="form-control" type="text"/>
+        </div>
+        <button (click)="fetchRepos(githubUsername)" class="btn btn-success">Fetch</button>
+    </form>
+    <br>
+    <h2>Repositories for {{githubUsername}}</h2>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor = "let repo of repos">
+            <span class="badge">{{repo.watchers}}</span>
+            <a [routerLink]="['/commits', repo.owner.login, repo.name]">{{repo.full_name}}</a>
+        </li>
+    </ul>
+</div>
